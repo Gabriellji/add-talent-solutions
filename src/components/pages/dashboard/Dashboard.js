@@ -1,16 +1,15 @@
-import Card from './card/Card';
-import Tabheader from '../dashboard/tabs-header/Tabheader';
-import bananaImg from './images/banana.png';
-import buildingImg from './images/building.png'
+import CardList from "./card-list/CardList";
 
-import './style.scss';
+import "./style.scss";
 
-const Dashboard = () => (
-    <section className="dashboard-main">
-        <Tabheader/>
-        <Card img={bananaImg} alt={"banana"}/>
-        <Card img={buildingImg} alt={"building"}/>
-    </section>
-)
+const Dashboard = (props) => {
+    console.log(props)
+    return (
+        <div className="dashboard-main">
+        <CardList />
+      </div>
+    )
+}
+
 
 export default Dashboard;

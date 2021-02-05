@@ -1,6 +1,6 @@
-const Tab = ({title}) => (
-    <div className="tab_wrap">
-        <p>{title}</p>
+const Tab = ({title, onClick, className}) => (
+    <div className="tab_wrap" onClick={(e) => onClick(e)}>
+        <p className={className}>{title}</p>
     </div>
 )
 
