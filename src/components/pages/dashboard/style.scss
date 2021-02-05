@@ -22,9 +22,9 @@ body {
     align-items: center;
     .content_wrap {
         min-width: 80%;
-        width: 100%;
         @media screen and (max-width: 380px){
             margin-top: 30px;
+            width: 100%;
         }
     }
     .tabs_header_wrap {
