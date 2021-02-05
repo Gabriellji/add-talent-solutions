@@ -1,5 +1,5 @@
 const Card = ({img, alt}) => (
-    <div>
+    <div className="card_wrap">
         <img src={img} alt={alt}/>
     </div>
 )
